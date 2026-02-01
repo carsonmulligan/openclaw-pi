@@ -1,6 +1,6 @@
 # OpenClaw on Pi: The Complete AI-First Setup Guide
 
-How to build a personal AI command center on a Raspberry Pi using Claude Code, Discord, and optional Google APIs — mostly automated by your AI assistant.
+I have a Raspberry Pi running 24/7 with a Claude-powered agent living inside my Discord. The thing that makes this different from every other "AI assistant" setup is that Discord becomes the operating system. Each channel is a domain — career, exercise, nutrition, dev-ops, journal — and the agent knows how to behave differently in each one. When I want to track something new, I create a channel and tell the agent what it's for. It writes its own cron job, sets up the schedule, and starts posting. I don't write the scripts. I don't configure the cron. I just say "post a stoic quote every morning in #philosophy" and it handles the rest — writes the script, sets the timer, deploys it. That's the unlock: the AI isn't just answering questions, it's maintaining infrastructure. A $50 Pi replaces what used to require a full-stack app, a database, a notification service, and a frontend. Discord is the frontend. The Pi is the backend. Claude is the engineer. The full step-by-step setup guide is below if you want to build your own.
 
 ---
 
