@@ -6,7 +6,7 @@ I have a Raspberry Pi running 24/7 with a Claude-powered agent living inside my 
 
 ## What You're Building
 
-A Raspberry Pi that runs 24/7 as your personal automation hub. An AI agent (powered by Claude) lives in your Discord servers, runs cron jobs, manages your career, tracks habits, and automates repetitive work. You talk to it in Discord. It talks back.
+A Raspberry Pi that runs 24/7 as your personal automation hub. An AI agent lives in your Discord servers, runs cron jobs, manages your career, tracks habits, and automates repetitive work. You talk to it in Discord. It talks back.
 
 Two Discord servers:
 - A **work** server — app development, career, dev-ops, content, learning
