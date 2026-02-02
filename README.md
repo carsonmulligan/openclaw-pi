@@ -1,6 +1,6 @@
 # OpenClaw on Pi: The Complete AI-First Setup Guide
 
-I have a Raspberry Pi running 24/7 with a Claude-powered agent living inside my Discord. The thing that makes this different from every other "AI assistant" setup is that Discord becomes the operating system. Each channel is a domain — career, exercise, nutrition, dev-ops, journal — and the agent knows how to behave differently in each one. When I want to track something new, I create a channel and tell the agent what it's for. It writes its own cron job, sets up the schedule, and starts posting. I don't write the scripts. I don't configure the cron. I just say "post a stoic quote every morning in #philosophy" and it handles the rest — writes the script, sets the timer, deploys it. I can also say "create a new channel called "weather" for my city and tell me the weather each day at 5:00am. A $50 Pi replaces what used to require a full-stack app, a database, a notification service, and a frontend. Discord is the frontend. The Pi is the backend. The AI you plugin is the engineer. The full step-by-step setup guide is below if you want to build your own.
+"post a stoic quote every morning in #philosophy" and it handles the rest — writes the script, sets the timer, deploys it. I can also say "create a new channel called "weather" for my city and tell me the weather each day at 5:00am. The full step-by-step setup guide is below if you want to build your own.
 
 ---
 
@@ -19,10 +19,10 @@ The AI does most of the setup. You just need the hardware and accounts.
 ## What You Need
 
 ### Required
-- Raspberry Pi 4 or 5 (4GB+ RAM recommended)
+- Raspberry Pi 4 or 5 (8GB+ RAM recommended)
 - microSD card (32GB+) with Raspberry Pi OS
 - Internet connection (ethernet or wifi)
-- Claude Code account (claude.ai/claude-code)
+- Agentic AI (Codex, Claude, Copilot, Kimi etc)
 - Discord account
 - GitHub account
 
