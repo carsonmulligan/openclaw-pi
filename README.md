@@ -22,7 +22,7 @@ The AI does most of the setup. You just need the hardware and accounts.
 - Raspberry Pi 4 or 5 (8GB+ RAM recommended)
 - microSD card (32GB+) with Raspberry Pi OS
 - Internet connection (ethernet or wifi)
-- Agentic AI (Codex, Claude, Copilot, Kimi etc)
+- OpenAI API access (for Codex)
 - Discord account
 - GitHub account
 
@@ -453,13 +453,13 @@ Each of these is a script in `scripts/` with a cron entry. The AI builds them. Y
 | Item | Cost |
 |------|------|
 | Raspberry Pi 4/5 | $35–$80 (one-time) |
-| Claude Code | Subscription (check claude.ai for pricing) |
+| OpenAI API | Pay-as-you-go (check openai.com for pricing) |
 | Discord | Free |
 | Google APIs | Free tier covers personal use |
 | Tailscale | Free for personal use |
 | GitHub | Free |
 
-**Total recurring:** just the Claude Code subscription.
+**Total recurring:** just the OpenAI API usage costs.
 
 ---
 
@@ -468,7 +468,7 @@ Each of these is a script in `scripts/` with a cron entry. The AI builds them. Y
 This system is designed to be **AI-first**. You describe what you want, the AI writes the scripts, sets up the cron jobs, and manages the config files. You just need to:
 
 1. Provide the hardware (Pi + internet)
-2. Create the accounts (Discord, GitHub, Claude Code, optional Gmail)
+2. Create the accounts (Discord, GitHub, OpenAI API, optional Gmail)
 3. Approve what the AI builds
 
 **The AI handles:** code, config, deployment, scheduling, and ongoing maintenance.
