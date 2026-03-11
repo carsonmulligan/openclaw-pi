@@ -1,11 +1,5 @@
 # OpenClaw on Pi: The Complete AI-First Setup Guide
 
-"post a stoic quote every morning in #philosophy" and it handles the rest — writes the script, sets the timer, deploys it. I can also say "create a new channel called "weather" for my city and tell me the weather each day at 5:00am. The full step-by-step setup guide is below if you want to build your own.
-
----
-
-## What You're Building
-
 A Raspberry Pi that runs 24/7 as your personal automation hub. An AI agent lives in your Discord servers, runs cron jobs, tracks habits, and automates repetitive work. You talk to it in Discord. It talks back.
 
 Two Discord servers:
